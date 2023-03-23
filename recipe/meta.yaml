@@ -11,7 +11,7 @@ source:
 
 build:
   skip: True  # [win or osx]
-  number: 2
+  number: 5
 
 requirements:
   build:
@@ -22,6 +22,7 @@ requirements:
     - pkg-config
   host:
     - python
+    - pybind11
     - sz
     - sz3
     - swig
