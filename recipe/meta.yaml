@@ -11,7 +11,7 @@ source:
 
 build:
   skip: True  # [win or osx]
-  number: 5
+  number: 6
 
 requirements:
   build:
@@ -20,6 +20,7 @@ requirements:
     - cmake
     - make
     - pkg-config
+    - python
   host:
     - python
     - pybind11

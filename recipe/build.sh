@@ -12,7 +12,7 @@ fi
 
 
 export LDFLAGS="-lrt"
-export PKG_CONFIG_PATH=${CONDA_PREFIX}/share/pkgconfig:${CONDA_PREFIX}/lib/pkgconfig:$PKG_CONFIG_PATH
+export PKG_CONFIG_PATH=${PREFIX}/share/pkgconfig:${PREFIX}/lib/pkgconfig:$PKG_CONFIG_PATH
 
 env |sort
 
